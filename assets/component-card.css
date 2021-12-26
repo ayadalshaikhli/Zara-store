@@ -94,8 +94,23 @@
 
 .card--text-only .card__inner {
   display: grid;
-  grid-template-rows: 1fr auto 1fr;
+  grid-template-rows: 4fr auto 1fr;
   width: 100%;
+}
+.card__inner{
+   width: 500px !important; 
+  height: 600px !important;
+  
+
+}
+.grid__item{
+  margin-bottom: 300px;
+  margin-left: 5px;
+}
+
+.card__inner img{
+  width: 400px !important; 
+  height: auto !important;
 }
 
 .card__content {
@@ -170,18 +185,23 @@
 
 .card-information__wrapper {
   width: 100%;
+  text-align: left !important;
 }
 
 .card-information__wrapper > * {
   line-height: 1.4;
   color: rgb(var(--color-foreground));
+  text-align: left !important;
 }
 
 .card-information__wrapper > .price {
   color: rgb(var(--color-foreground));
+  text-align: left !important;
+  justify-content: flex-start;
 }
 
 .card-information__wrapper > .rating {
+  text-align: left !important;
   margin-top: 0.4rem;
 }
 
