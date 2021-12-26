@@ -6,7 +6,8 @@
         "3ddbcde5-8e34-42a4-91b6-220b42b8470f": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "women",
+            "image_bg": "shopify:\/\/shop_images\/IMAGE-large-landscape-c5570d03-0587-4d72-aa22-f804cdd9dbd1-default_0.jpg"
           }
         }
       },
