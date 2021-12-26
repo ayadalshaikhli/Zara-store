@@ -1,24 +1,82 @@
 {
   "sections": {
-    "163911981402e54f9e": {
-      "type": "home-page",
+    "1638337831c1b2d6ae": {
+      "type": "hero",
       "blocks": {
-        "3ddbcde5-8e34-42a4-91b6-220b42b8470f": {
+        "bdfeade6-f404-4a0b-b5c2-dc220b6458cb": {
           "type": "collection",
           "settings": {
-            "collection": "women",
-            "image_bg": "shopify:\/\/shop_images\/IMAGE-large-landscape-c5570d03-0587-4d72-aa22-f804cdd9dbd1-default_0.jpg"
+            "collection": "beach",
+            "image_bg": "shopify:\/\/shop_images\/hero-beach_b7811edb-1c67-4848-a29b-8e56c75e28de.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-beach-hover.png"
+          }
+        },
+        "5bd6728e-fbea-4b86-b146-cbee2dff7a1d": {
+          "type": "collection",
+          "settings": {
+            "collection": "back-to-work",
+            "image_bg": "shopify:\/\/shop_images\/hero-work.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-work-hover.png"
+          }
+        },
+        "ccff4087-5b72-4c05-a786-38b3c05608a0": {
+          "type": "collection",
+          "settings": {
+            "collection": "weekly-picks",
+            "image_bg": "shopify:\/\/shop_images\/hero-denim.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-denim-hover.png"
           }
         }
       },
       "block_order": [
-        "3ddbcde5-8e34-42a4-91b6-220b42b8470f"
+        "bdfeade6-f404-4a0b-b5c2-dc220b6458cb",
+        "5bd6728e-fbea-4b86-b146-cbee2dff7a1d",
+        "ccff4087-5b72-4c05-a786-38b3c05608a0"
       ],
       "settings": {
+      }
+    },
+    "163833783670fe9dde": {
+      "type": "collection-grid",
+      "blocks": {
+        "87b172db-3562-4031-981a-7804a6898089": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "687cd5bb-18c7-43c4-920a-86d5e24c8dc6": {
+          "type": "collection",
+          "settings": {
+            "collection": "tops"
+          }
+        },
+        "3d8c9e5a-b797-4bca-a966-4deb76085a45": {
+          "type": "collection",
+          "settings": {
+            "collection": "denim"
+          }
+        },
+        "603169ad-895a-4fe5-8bdc-96557b0a4e6b": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottoms"
+          }
+        }
+      },
+      "block_order": [
+        "87b172db-3562-4031-981a-7804a6898089",
+        "687cd5bb-18c7-43c4-920a-86d5e24c8dc6",
+        "3d8c9e5a-b797-4bca-a966-4deb76085a45",
+        "603169ad-895a-4fe5-8bdc-96557b0a4e6b"
+      ],
+      "settings": {
+        "header": ""
       }
     }
   },
   "order": [
-    "163911981402e54f9e"
+    "1638337831c1b2d6ae",
+    "163833783670fe9dde"
   ]
 }
