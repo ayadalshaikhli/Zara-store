@@ -1,4 +1,71 @@
-.header-container {
+.hero-collections{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.right-arrow{
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 50%;
+  left: 1%;
+}
+
+.left-arrow{
+  position: absolute;
+  top: 50%;
+  right: 2%;
+}
+
+
+.hero-collections__card-ctn{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.hero-collections__card{
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+  height: 80vh;
+  width: 97%;
+}
+.green{
+  color: black;
+}
+.hero-collections__card--bg{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: opacity 0.3s;
+  
+  
+}
+.hero-collections__card-title {
+  font-size: 31px;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  opacity: 1;
+  transition: opacity 0.3s;
+  color: #111;
+}
+
+
+
+/* .header-container {
   margin-top: 100px;
   position: relative;
 }
@@ -82,8 +149,8 @@
 }
 @media screen and (min-width: 1200px) {
   .hero-collections__card {
-    height: 270px;
-    width: 330px;
+    height: 470px;
+    width: 730px;
   }
 }
 
@@ -139,4 +206,4 @@
 .hero-collections__card:hover > .hero-collections__card--hover {
   opacity: 1;
   transition: opacity 0.3s;
-}
+} */
